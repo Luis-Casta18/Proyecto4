@@ -14228,7 +14228,9 @@ $$<p>Si se grafica la amplitud $A_1$ y $A_2$ de cada portadora en una gráfica d
 <span class="n">Tc</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="n">fc</span>
 
 <span class="n">t_final</span> <span class="o">=</span> <span class="n">Ns</span><span class="o">*</span><span class="n">Tc</span>
-<span class="n">t</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">t_final</span><span class="p">,</span> <span class="n">NS</span><span class="p">)</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">t_final</span><span class="p">,</span> <span class="n">Ns</span><span class="p">)</span>
+
+<span class="c1"># Figura</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">senal_Tx</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">500</span><span class="p">])</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;$Señal Tx en el tiempo $&#39;</span><span class="p">)</span>
